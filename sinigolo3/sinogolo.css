@@ -87,7 +87,7 @@ input {
     font-size: 12px;
     color: rgb(244, 140, 143);
     line-height: 1.797;
-    text-align: justifyLeft;
+    
 }
 textarea {
     background-color: #d6564f;
@@ -96,44 +96,125 @@ textarea {
     font-size: 12px;
     color: rgb(244, 140, 143);
     line-height: 1.797;
-    text-align: justifyLeft;
+    
 }
 
 
   
-/*.layout-3 {
+.layout-3 {
     display: flex;
     flex-direction: column;
 }
-*/
+
 
 
 
 
 /* ico */
-/*
+
 .ico {
     display: flex;
 
 }
-*/
+
 
 .ico_location {
     display: inline-block;
-    background-image: url(location.svg);
-    width: 70px;
-    height: 110px;
+    background-image: url(singolo3/location.svg);
+    width: 7px;
+    height: 11px;
+    margin-right: 10px;
 }
 .ico_phone {
     display: inline-flex;
-    background: url(phone.svg);
-    width: 10px;
-    height: 6px;
+    background: url(singolo3/phone.svg);
+    width: 11px;
+    height: 11px;
+    margin-right: 10px;
 }
 .ico_mail {
     display: inline-flex;
-    background: url(mail.svg);
-    width: 10px;
-    height: 6px;
+    background: url(singolo3/mail.svg);
+    width: 13px;
+    height: 8px;
     color: #ffffff;
+    margin-right: 10px;
+}
+.ico_text {
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+
+
+
+.footer-wrapper {
+    max-width: 1020px;
+    
+    margin: 0 auto;
+    background-color: #2d303a;
+}
+
+.footer-logo {
+    padding: 30px 0px 30px 40px;
+}
+  
+.footer__logo {
+    display: block;
+    background: url(singolo3/Copyright.svg);
+    width: 92px;
+    height: 11px;
+    
+
+}
+
+.tags {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 40px 30px 0px;
+    
+}
+.ico__margin {
+    margin-left: 10px;
+}
+.tag {
+    border-radius: 90%;
+    margin: 0 10px;
+}
+.footer_border {
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+
+.footer__ico-facebook {
+    display: block;
+    background-image: url(singolo3/facebook.svg);
+
+    width: 8px;
+    height: 14px;
+   
+    
+}
+.footer__ico-google {
+    display: block;
+    background-image: url(singolo3/google+.svg);
+    width: 14px;
+    height: 14px;
+    
+
+}
+.footer__ico-twitter {
+    display: block;
+    background: url(singolo3/twitter.svg);
+    width: 14px;
+    height: 12px;
+
+}
+.footer__ico-linkdln {
+    display: block;
+    background: url(singolo3/linkedin.svg);
+    width: 14px;
+    height: 14px;
 }
